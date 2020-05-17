@@ -5,5 +5,7 @@
     <RootNamespace>CTLI_Example</RootNamespace>
   </PropertyGroup>
 
-
+<ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.0" />
+  </ItemGroup>
 </Project>
