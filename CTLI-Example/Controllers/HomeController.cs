@@ -29,11 +29,11 @@ namespace CTLI_Example.Controllers
         private string GetEmployees()
         {
             string connectionString =
-           "Server=tcp:ctli-demo.database.windows.net,1433;Initial Catalog=CTLI_Example;Persist Security Info=False;User ID=ctli_demo;Password=Saanvi029@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+           "Server=tcp:ctli-demo.database.windows.net,1433;Initial Catalog=Employee_Details;Persist Security Info=False;User ID=ctli_demo;Password=Saanvi029@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
             // Provide the query string with a parameter placeholder.
             string queryString =
-                "SELECT * from dbo.Employee_Details;";
+                "SELECT * from dbo.Employee;";
 
             // Specify the parameter value.
             int paramValue = 5;
